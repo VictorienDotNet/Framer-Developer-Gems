@@ -7,19 +7,20 @@ This repository serves as a comprehensive guide, curated by the Framer community
 3. [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/)
 
 
-
 ## Special Enum Property Control
 
 Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control but mentionning the correct `optionTitles`. You can see below the different options:
 
-| Type | Look n Feel |
-|-|-|
-|[Horizontal](#Horizontal)|![Horizontal@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/772df766-8816-4749-8308-111218db7450)|
-| [Horizontal](#Horizontal) |![Vertical@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b7cfb8f0-b88e-4e57-9ad7-a46d63f75287)|
 
-
-
-
+![Vertical](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/1c4f0dfb-f63c-45ca-beb7-a484982e36f9)
+![Text Align V](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/0a96df8d-bf74-40ca-b50e-09217ef24b20)
+![Text Align H](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/e9a8f11a-82b5-42c5-a799-3e59372e5ef5)
+![Orientation](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d3f29857-80b2-44e3-b021-224718f945fa)
+![Horizontal](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/ef4f30f1-5e54-4798-b473-d2c71c542832)
+![Directions](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/93f844ce-2e77-43ee-a579-541a19fe03e0)
+![Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/872db1ea-7ea4-4eec-a687-a88bc31691b3)
+![Any Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d70f53d7-fa2c-4e8e-969a-1aa555c3494d)
+![Alignement](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/dd8bb795-dd81-4720-b943-be200ef4cce1)
 
 ### Horizontal
 ```
@@ -33,7 +34,6 @@ horizontal: {
 ```
 ### Vertical
 ```
-
 vertical: {
     type: ControlType.Enum,
     defaultValue: "center",
@@ -42,8 +42,7 @@ vertical: {
     displaySegmentedControl: true,
 },
 ```
-
-![Direction@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/f81e1a15-92ce-4015-9131-5fb30448c9fd)
+### Direction
 ```
 direction: {
     type: ControlType.Enum,
@@ -52,8 +51,7 @@ direction: {
     displaySegmentedControl: true,
 },
 ```
-
-![Any Direction@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b17c2e11-cf7e-49eb-bac0-515f1bebcaea)
+### Any Direction
 ```
 anyDirection: {
     type: ControlType.Enum,
@@ -62,8 +60,7 @@ anyDirection: {
     displaySegmentedControl: true,
 },
 ```
-
-![Directions@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b22bce89-7069-4533-824a-0dd720ed1421)
+### Directions
 ```
 directions: {
     type: ControlType.Enum,
@@ -79,8 +76,7 @@ directions: {
     displaySegmentedControl: true,
 },
 ```
-
-![Alignement@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b39816fb-72aa-496a-954c-c8f0d4462eaa)
+### Alignement
 ```
 alignment: {
     type: ControlType.Enum,
@@ -97,8 +93,7 @@ alignment: {
     displaySegmentedControl: true,
 },
 ```
-
-![Orientation@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/fa6dff83-5fae-4590-926d-0399374c59c8)
+### Orientation
 ```
 orientation: {
     type: ControlType.Enum,
@@ -108,8 +103,7 @@ orientation: {
     displaySegmentedControl: true,
 },
 ```
-
-![Text Align H@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/c73b3b5f-da72-4963-aadc-a3490236ff28)
+### Text Align Horizontal
 ```
 textAlignH: {
       type: ControlType.Enum,
@@ -122,8 +116,7 @@ textAlignH: {
       displaySegmentedControl: true,
 },
 ```
-
-![Text Align V@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/5cbc73d4-3bff-4188-826c-506670499999)
+### Text Align Vertical
 ```
 textAlignV: {
     type: ControlType.Enum,
