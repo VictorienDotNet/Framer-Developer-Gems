@@ -131,7 +131,7 @@ orientation: {
 
 ## Render Target
 
-The `RenderTarget.current()` allow you to know on which environement your component will be render. It can recieve fours different possibilites : `canvas`, `preview`, `export` or `thumbnail`.
+The `RenderTarget.current()` allow you to know on which environement your component is on. It can recieve fours different possibilites : `canvas`, `preview`, `export` or `thumbnail`.
 
 
 
