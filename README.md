@@ -131,7 +131,7 @@ orientation: {
 
 ## Render Target
 
-The `RenderTarget.current()` allow you to know on which environement. It can recieve fours different possibilites : `canvas`, `preview`, `export` or `thumbnail`.
+The `RenderTarget.current()` allow you to know on which environement your component will be render. It can recieve fours different possibilites : `canvas`, `preview`, `export` or `thumbnail`.
 
 
 
@@ -139,8 +139,9 @@ The `RenderTarget.current()` allow you to know on which environement. It can rec
 import { RenderTarget } from "framer"
 
 if (RenderTarget.current() === RenderTarget.canvas) {
-   return <Component />
+    return <span>Visible Only on the Canvas</span>
 }
+ return <Component />
 ```
 
 
