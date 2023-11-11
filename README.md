@@ -2,18 +2,26 @@
 
 This repository serves as a comprehensive guide, curated by the Framer community, to provide insights into advanced features not covered in the official documentation.
 
-1. [Special Enum Property Control](#enum-property-control)
+1. [Special Enum Property Control](#special-enum-property-control)
 2. [RenderTarget](#render-target)
-3. Handshake
+3. [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/)
 
 
 
 ## Special Enum Property Control
 
-Framer allow you to have 
+Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control but mentionning the correct `optionTitles`. You can see below the different options:
+
+| Type | Look n Feel |
+|-|-|
+|[Horizontal](#Horizontal)|![Horizontal@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/772df766-8816-4749-8308-111218db7450)|
+| [Horizontal](#Horizontal) |![Vertical@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b7cfb8f0-b88e-4e57-9ad7-a46d63f75287)|
 
 
-![Horizontal@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/772df766-8816-4749-8308-111218db7450)
+
+
+
+### Horizontal
 ```
 horizontal: {
     type: ControlType.Enum,
@@ -23,7 +31,7 @@ horizontal: {
     displaySegmentedControl: true,
 },
 ```
-![Vertical@2x](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/b7cfb8f0-b88e-4e57-9ad7-a46d63f75287)
+### Vertical
 ```
 
 vertical: {
