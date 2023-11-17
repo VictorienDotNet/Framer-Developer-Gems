@@ -10,6 +10,7 @@ Discovery that are not documented yet:
 
 - [The `ControlType.Date`](https://www.framer.community/c/bugs/controltype-date-is-undocumented)
 - [The `ControlType.Font`](https://www.framer.community/c/developers/types-are-incorrect-missing-in-code-editor)
+- [The `useRouter` from Framer](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)
 
 
 ## Special Enum Property Control
