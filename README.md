@@ -1,10 +1,15 @@
 # Framer Documentation
 
-This repository serves as a comprehensive guide, curated by the Framer community, to provide insights into advanced features not covered in the official documentation.
+This repository serves as a comprehensive guide, curated by the Framer community, to provide insights into advanced features not covered in the official documentation. This documentation currently cover:
 
 1. [Special Enum Property Control](#special-enum-property-control)
 2. [RenderTarget](#render-target)
 3. [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/)
+
+Discovery that are not documented yet:
+
+- [The `ControlType.Date`](https://www.framer.community/c/bugs/controltype-date-is-undocumented)
+- [The `ControlType.Font`](https://www.framer.community/c/developers/types-are-incorrect-missing-in-code-editor)
 
 
 ## Special Enum Property Control
