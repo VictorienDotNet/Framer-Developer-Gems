@@ -16,7 +16,7 @@ Discovery that are not documented yet:
 
 ## Special Enum Property Control
 
-Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control but mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
+Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
 
 ![Horizontal](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/ef4f30f1-5e54-4798-b473-d2c71c542832)
 ![Vertical](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/1c4f0dfb-f63c-45ca-beb7-a484982e36f9)
