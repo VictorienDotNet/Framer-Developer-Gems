@@ -6,7 +6,7 @@ This repository serves as a comprehensive guide, curated by the Framer community
 2. [RenderTarget](#render-target)
 3. [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/)
 
-Discovery that are not documented yet:
+Discoveries that are not documented yet but discussed with the community:
 
 - [The `ControlType.Date`](https://www.framer.community/c/bugs/controltype-date-is-undocumented)
 - [The `ControlType.Font`](https://www.framer.community/c/developers/code-component-with-text-control)
