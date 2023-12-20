@@ -12,6 +12,7 @@ Discoveries that are not documented yet but discussed with the community:
 - [The `ControlType.Font`](https://www.framer.community/c/developers/code-component-with-text-control)
 - [The `useRouter` from Framer](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)
 - [@framerDisableUnlink](https://www.framer.community/c/developers/about-code-component)
+- useStore
 
 
 ## Special Enum Property Control
