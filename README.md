@@ -12,12 +12,8 @@ This repository serves as a comprehensive guide, curated by the Framer community
 8. useStore
 
 
-| Feature | Documentation | Discussion |
-|-|-|-|
-|**Enum Property Control**: Allow | [Available](/features/propertycontrol.md) | [here]() |
+| Features | Status |
+|-|-|
+|**Enum Property Control**: Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct optionTitles or optionIcons.  | [Documentation Available](/features/propertycontrol.md) |
 
 
-
-- **Enum Property Control**
-  Framer display icons on really specific property
-[Documentation](/features/propertycontrol.md)
