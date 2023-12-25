@@ -1,16 +1,16 @@
-# Framer Documentation
-This repository serves as documentation for advanced features not covered in the official Framer documentation. As additional documentation, it doesn't cover the basic and suppose that you are already aware of it and additionaly how React works. If you are not, you can refer to the Futher Reading section.  This guide is curated by the Framer community. 
+# Framer Developer Gems
+This repository documents advanced features not covered in the [official Developer documentation](https://www.framer.com/developers/) from Framer. It's a curated list of gems discovered by the Framer Developer Community. These discoveries open the development of more advanced components and overrides. As additional documentation, it doesn't cover the basics and suppose you are already aware of it and how React works. If you are not, you can refer to the [Further Reading](#futher-readings) section. 
 
 
-## Gems
+## Discovered Gems
 
-All gems discover by the community which have beem discussed in the forum (💬) or documented here (📝). 
+Below is a list of gems discovered by the community that have been discussed in the forum (💬) or documented here (📝). 
 
 - 📝 [Advanced Property Control](./gems/AdvancedPropertyControl.md)<br/>
-   Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct properties.
+   Framer displays icons on particular properties, such as text alignment or device orientation. You can reproduce this Control by mentioning the correct properties.
    
-- 📝 [RenderTarget](../gems/RenderTarget)<br/>
-   The `RenderTarget` function allow you to know on which environement your component is rendered.
+- 📝 [RenderTarget](./gems/RenderTarget)<br/>
+   The `RenderTarget` function lets you know if the component is currently rendered in the Preview, the Canvas or other.
    
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
   Export your Design Component into a Next.js Project
@@ -22,7 +22,7 @@ All gems discover by the community which have beem discussed in the forum (💬)
   Navigate between your website pages
   
 - 💬 [@framerDisableUnlink](https://www.framer.community/c/developers/about-code-component)<br/>
-  Disable the Code Edition of your Compoenent
+  Disable the Code Edition of your Component
   
 
 <br/>
@@ -33,6 +33,13 @@ All gems discover by the community which have beem discussed in the forum (💬)
 
 - [Previous Framer Developer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
 
-- [React Guide by Framer]()
+- [React Guide by Framer](https://site-dsmwifrws-framer-app.vercel.app/books/framer-guide-to-react/)
 
 - [Official React Documentation](https://react.dev/)
+
+## Contribute
+
+Feel free to contribute to this documentation by sharing your discoveries. You can submit a pull request or tag me ([@Victorien](https://www.framer.community/u/ef550bdb) in the related discussion on the [Framer Forum](https://www.framer.community/). Thanks to all Framer members for their contribution ❤️.
+
+ 
+> 
