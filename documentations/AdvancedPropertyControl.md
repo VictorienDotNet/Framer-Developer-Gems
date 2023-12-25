@@ -4,10 +4,10 @@
 There are more possibilities in terms of property controls than what the official documentation covers. See below extra gems for Property Controls:
 
 1. [Display Icons in the Property Controls](#icons-in-property-controls)
-2. [Use the `ControlType.Font`](Fonts)
+2. [Use the `ControlType.Font`](#fonts-panel)
 
 
-## Icons in Proeprty Controls
+## Icons in Property Controls
 
 Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
 
@@ -130,7 +130,7 @@ orientation: {
 ```
 
 
-## Fonts
+## Fonts panel
 The `ControlType.Font` allow you to use the Official Font Picker 
 
 ```
