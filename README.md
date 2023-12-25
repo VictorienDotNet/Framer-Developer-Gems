@@ -6,16 +6,18 @@ This repository documents advanced features not covered in the [official Develop
 
 Below is a list of gems discovered by the community that have been discussed in the forum (💬) or documented here (📝). 
 
-- 📝 [Advanced Property Control](./documentations/AdvancedPropertyControl.md)<br/>
-   There are more possibilities in terms of property controls than what the official documentation covers. e.g.: displaying Icons in the Property Controls or using the Official Font Picker
+- 📝 [Advanced Property Control](./documentations/AdvancedPropertyControl.md) <br/>
+  There are more possibilities in terms of property controls than what the official documentation covers. You can: 
+   - Display Icons in the Property Controls
+   - Use the Font Picker 
    
 - 📝 [RenderTarget](./documentations/RenderTarget.md)<br/>
-   The `RenderTarget` function lets you know if Framer currently renders the component in the Preview, the Canvas, the export or the Thumbnail.
+   The `RenderTarget` function lets you know where Framer renders the component.
    
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
   Export your Design Component into a Next.js Project
 
-- 💬 [useStore](./documentations/useStore.md)<br/>
+- 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
   
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
@@ -39,7 +41,6 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 ## Contribute
 
-Feel free to contribute to this documentation by sharing your discoveries. You can submit a pull request or tag me ([@Victorien](https://www.framer.community/u/ef550bdb) in the related discussion on the [Framer Forum](https://www.framer.community/). Thanks to all Framer members for their contribution ❤️.
+Feel free to contribute to this documentation by sharing or documenting your discoveries. You can submit a pull request or tag me ([@Victorien](https://www.framer.community/u/ef550bdb)) in the related discussion on the [Framer Forum](https://www.framer.community/). Thanks to all Framer members for their contribution ❤️.
 
  
-> 
