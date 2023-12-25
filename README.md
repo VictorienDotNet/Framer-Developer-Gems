@@ -1,5 +1,5 @@
 # Framer Developer Gems
-This repository documents advanced features not covered in the [official Developer documentation](https://www.framer.com/developers/) from Framer. It's a curated list of gems discovered by the Framer Developer Community. These discoveries open the development of more advanced components and overrides. As additional documentation, it doesn't cover the basics and suppose you are already aware of it and how React works. If you are not, you can refer to the [Further Reading](#futher-readings) section. 
+This repository documents advanced features not covered in the [official Developer documentation](https://www.framer.com/developers/) from Framer. It's a curated list of gems discovered by the Framer Developer Community. These discoveries open the development of more advanced components and overrides. As additional documentation, it doesn't cover the basics and suppose you are already aware of it. If you are not, you can refer to the [Further Reading](#futher-readings) section. 
 
 
 ## Discovered Gems
@@ -7,7 +7,7 @@ This repository documents advanced features not covered in the [official Develop
 Below is a list of gems discovered by the community that have been discussed in the forum (💬) or documented here (📝). 
 
 - 📝 [Advanced Property Control](./documentations/AdvancedPropertyControl.md)<br/>
-   Framer displays icons on particular properties, such as text alignment or device orientation. You can reproduce this Control by mentioning the correct properties.
+   There are more possibilities in terms of property controls than what the official documentation covers. e.g.: displaying Icons in the Property Controls or using the Official Font Picker
    
 - 📝 [RenderTarget](./documentations/RenderTarget.md)<br/>
    The `RenderTarget` function lets you know if Framer currently renders the component in the Preview, the Canvas, the export or the Thumbnail.
