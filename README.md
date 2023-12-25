@@ -31,9 +31,9 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 ## Futher Readings
 
-- [Official Framer Developer Documentation](https://www.framer.com/developers/)
+- [Official Developer Documentation](https://www.framer.com/developers/)
 
-- [Previous Framer Developer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
+- [Legacy Developer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
 
 - [React Guide by Framer](https://site-dsmwifrws-framer-app.vercel.app/books/framer-guide-to-react/)
 
