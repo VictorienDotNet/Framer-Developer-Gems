@@ -1,25 +1,19 @@
 
 # Advanced Property Controls
 
-1. [Display Icons in the Property Controls](#icons)
-2. [Use the PropertyControl.Font](Fonts)
+There are more possibilities in terms of property controls than what the official documentation covers. See below extra gems for Property Controls:
+
+1. [Display Icons in the Property Controls](#icons-in-property-controls)
+2. [Use the `ControlType.Font`](Fonts)
 
 
-# Icons
+## Icons in Proeprty Controls
 
 Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
 
-![Horizontal](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/ef4f30f1-5e54-4798-b473-d2c71c542832)
-![Vertical](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/1c4f0dfb-f63c-45ca-beb7-a484982e36f9)
-![Text Align H](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/e9a8f11a-82b5-42c5-a799-3e59372e5ef5)
-![Text Align V](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/0a96df8d-bf74-40ca-b50e-09217ef24b20)
-![Directions](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/93f844ce-2e77-43ee-a579-541a19fe03e0)
-![Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/872db1ea-7ea4-4eec-a687-a88bc31691b3)
-![Any Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d70f53d7-fa2c-4e8e-969a-1aa555c3494d)
-![Alignement](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/dd8bb795-dd81-4720-b943-be200ef4cce1)
-![Orientation](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d3f29857-80b2-44e3-b021-224718f945fa)
-
 ### Horizontal
+![Horizontal](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/ef4f30f1-5e54-4798-b473-d2c71c542832)
+
 ```
 horizontal: {
     type: ControlType.Enum,
@@ -30,6 +24,7 @@ horizontal: {
 },
 ```
 ### Vertical
+![Vertical](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/1c4f0dfb-f63c-45ca-beb7-a484982e36f9)
 ```
 vertical: {
     type: ControlType.Enum,
@@ -40,6 +35,7 @@ vertical: {
 },
 ```
 ## Text Align Horizontal
+![Text Align H](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/e9a8f11a-82b5-42c5-a799-3e59372e5ef5)
 ```
 textAlignH: {
       type: ControlType.Enum,
@@ -53,6 +49,7 @@ textAlignH: {
 },
 ```
 ### Text Align Vertical
+![Text Align V](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/0a96df8d-bf74-40ca-b50e-09217ef24b20)
 ```
 textAlignV: {
     type: ControlType.Enum,
@@ -66,6 +63,7 @@ textAlignV: {
 },
 ```
 ### Directions
+![Directions](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/93f844ce-2e77-43ee-a579-541a19fe03e0)
 ```
 directions: {
     type: ControlType.Enum,
@@ -82,6 +80,7 @@ directions: {
 },
 ```
 ### Direction
+![Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/872db1ea-7ea4-4eec-a687-a88bc31691b3)
 ```
 direction: {
     type: ControlType.Enum,
@@ -91,6 +90,7 @@ direction: {
 },
 ```
 ## Any Direction
+![Any Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d70f53d7-fa2c-4e8e-969a-1aa555c3494d)
 ```
 anyDirection: {
     type: ControlType.Enum,
@@ -100,6 +100,7 @@ anyDirection: {
 },
 ```
 ### Alignement
+![Alignement](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/dd8bb795-dd81-4720-b943-be200ef4cce1)
 ```
 alignment: {
     type: ControlType.Enum,
@@ -117,6 +118,7 @@ alignment: {
 },
 ```
 ### Orientation
+![Orientation](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d3f29857-80b2-44e3-b021-224718f945fa)
 ```
 orientation: {
     type: ControlType.Enum,
@@ -129,10 +131,23 @@ orientation: {
 
 
 ## Fonts
+The `ControlType.Font` allow you to use the Official Font Picker 
+
+```
+font: {
+    type: ControlType.Font,
+    controls: "extended",
+    displayFontSize: true,
+    displayTextAlignment: false,
+    defaultFontType: "monospace",
+    defaultValue: {
+    fontSize: 14,
+    lineHeight: "1.5em"
+}
+```
 
 
 ## References
-
 
 1. 💬 [Discussion about Icons in Property Controls](https://www.framer.community/c/developers/how-can-i-get-icons-in-the-enum-property-control)
 2. 💬 [Disccusion about ControlType.Font](https://www.framer.community/c/developers/code-component-with-text-control)

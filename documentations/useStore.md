@@ -1,6 +1,6 @@
 # useStore
 
-`useStore` in Framer allows you to share data, information, and states across the different components you attach them to. When using Overrides or Code components, you can use a shared hook to share data across components:
+`useStore` in Framer allows you to share data, information, and states across the different components you attach them to. When using Overrides or Code components, you can use a shared hook to share data across them:
 
 ````
 import type { ComponentType } from "react";

@@ -7,11 +7,13 @@ import { RenderTarget } from "framer"
 
 if (RenderTarget.current() === RenderTarget.canvas) {
     return <span>Visible Only on the Canvas</span>
+}else{
+     return <span>Visible in the Preview, Export and Thumbnail</span>
 }
- return <Component />
-```
 
+```
 
 ## Reference
 
-1.  📝 `RenderTarget` was referenced in the [legacy documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
+1. 📝 `RenderTarget` is referenced in the [Motion documentation](https://www.framer.com/motion/render-target/).
+2. 💬 [Discusion about `RenderTarget`](https://www.framer.community/c/developers/execute-override-only-when-component-is-not-on-canvas-is-it-possible)
