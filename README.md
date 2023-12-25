@@ -6,10 +6,10 @@ This repository serves as documentation for advanced features not covered in the
 
 All gems discover by the community which have beem discussed in the forum (💬) or documented here (📝). 
 
-- 📝 [Advanced Property Control](../gems/special-enum-property-control)<br/>
+- 📝 [Advanced Property Control](../gems/AdvancedPropertyControl.md)<br/>
    Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct properties.
    
-- 📝 [RenderTarget](#render-target)<br/>
+- 📝 [RenderTarget](../gems/RenderTarget)<br/>
    The `RenderTarget` function allow you to know on which environement your component is rendered.
    
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
@@ -17,13 +17,14 @@ All gems discover by the community which have beem discussed in the forum (💬)
 
 - 💬 [useStore]()<br/>
   Share data between two Code Components or Code Overrides 
-    
+  
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
   Navigate between your website pages
-    
+  
 - 💬 [@framerDisableUnlink](https://www.framer.community/c/developers/about-code-component)<br/>
   Disable the Code Edition of your Compoenent
-    
+  
+
 <br/>
 
 ## Futher Readings
