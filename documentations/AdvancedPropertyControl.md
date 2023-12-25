@@ -34,7 +34,7 @@ vertical: {
     displaySegmentedControl: true,
 },
 ```
-## Text Align Horizontal
+### Text Align Horizontal
 ![Text Align H](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/e9a8f11a-82b5-42c5-a799-3e59372e5ef5)
 ```
 textAlignH: {
@@ -89,7 +89,7 @@ direction: {
     displaySegmentedControl: true,
 },
 ```
-## Any Direction
+### Any Direction
 ![Any Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d70f53d7-fa2c-4e8e-969a-1aa555c3494d)
 ```
 anyDirection: {
@@ -135,6 +135,7 @@ The `ControlType.Font` allow you to use the Official Font Picker
 
 ```
 font: {
+    //@ts-ignore
     type: ControlType.Font,
     controls: "extended",
     displayFontSize: true,
