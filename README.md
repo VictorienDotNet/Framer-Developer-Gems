@@ -6,7 +6,7 @@ This repository serves as documentation for advanced features not covered in the
 
 All gems discover by the community which have beem discussed in the forum (💬) or documented here (📝). 
 
-- 📝 [Advanced Property Control](../gems/AdvancedPropertyControl.md)<br/>
+- 📝 [Advanced Property Control](./gems/AdvancedPropertyControl.md)<br/>
    Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct properties.
    
 - 📝 [RenderTarget](../gems/RenderTarget)<br/>
