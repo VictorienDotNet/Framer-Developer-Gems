@@ -1,5 +1,11 @@
 
-# Special Enum Property Control
+# Advanced Property Controls
+
+1. [Display Icons in the Property Controls](#icons)
+2. [Use the PropertyControl.Font](Fonts)
+
+
+# Icons
 
 Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
 
@@ -13,7 +19,7 @@ Framer display icons on really specific property as Text Alignement or Device Or
 ![Alignement](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/dd8bb795-dd81-4720-b943-be200ef4cce1)
 ![Orientation](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d3f29857-80b2-44e3-b021-224718f945fa)
 
-## Horizontal
+### Horizontal
 ```
 horizontal: {
     type: ControlType.Enum,
@@ -23,7 +29,7 @@ horizontal: {
     displaySegmentedControl: true,
 },
 ```
-## Vertical
+### Vertical
 ```
 vertical: {
     type: ControlType.Enum,
@@ -46,7 +52,7 @@ textAlignH: {
       displaySegmentedControl: true,
 },
 ```
-## Text Align Vertical
+### Text Align Vertical
 ```
 textAlignV: {
     type: ControlType.Enum,
@@ -59,7 +65,7 @@ textAlignV: {
     displaySegmentedControl: true,
 },
 ```
-## Directions
+### Directions
 ```
 directions: {
     type: ControlType.Enum,
@@ -75,7 +81,7 @@ directions: {
     displaySegmentedControl: true,
 },
 ```
-## Direction
+### Direction
 ```
 direction: {
     type: ControlType.Enum,
@@ -93,7 +99,7 @@ anyDirection: {
     displaySegmentedControl: true,
 },
 ```
-## Alignement
+### Alignement
 ```
 alignment: {
     type: ControlType.Enum,
@@ -110,7 +116,7 @@ alignment: {
     displaySegmentedControl: true,
 },
 ```
-## Orientation
+### Orientation
 ```
 orientation: {
     type: ControlType.Enum,
@@ -120,3 +126,14 @@ orientation: {
     displaySegmentedControl: true,
 },
 ```
+
+
+## Fonts
+
+
+## References
+
+
+1. 💬 [Discussion about Icons in Property Controls](https://www.framer.community/c/developers/how-can-i-get-icons-in-the-enum-property-control)
+2. 💬 [Disccusion about ControlType.Font](https://www.framer.community/c/developers/code-component-with-text-control)
+
