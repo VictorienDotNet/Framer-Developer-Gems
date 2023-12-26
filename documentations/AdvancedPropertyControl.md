@@ -14,7 +14,7 @@ Framer display icons on really specific property as Text Alignement or Device Or
 ### Horizontal
 ![Horizontal](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/ef4f30f1-5e54-4798-b473-d2c71c542832)
 
-```
+```js
 horizontal: {
     type: ControlType.Enum,
     defaultValue: "center",
@@ -25,7 +25,7 @@ horizontal: {
 ```
 ### Vertical
 ![Vertical](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/1c4f0dfb-f63c-45ca-beb7-a484982e36f9)
-```
+```js
 vertical: {
     type: ControlType.Enum,
     defaultValue: "center",
@@ -36,7 +36,7 @@ vertical: {
 ```
 ### Text Align Horizontal
 ![Text Align H](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/e9a8f11a-82b5-42c5-a799-3e59372e5ef5)
-```
+```js
 textAlignH: {
       type: ControlType.Enum,
       options: ["text-align-left", "text-align-center", "text-align-right"],
@@ -50,7 +50,7 @@ textAlignH: {
 ```
 ### Text Align Vertical
 ![Text Align V](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/0a96df8d-bf74-40ca-b50e-09217ef24b20)
-```
+```js
 textAlignV: {
     type: ControlType.Enum,
     options: ["text-align-top", "text-align-middle", "text-align-bottom"],
@@ -64,7 +64,7 @@ textAlignV: {
 ```
 ### Directions
 ![Directions](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/93f844ce-2e77-43ee-a579-541a19fe03e0)
-```
+```js
 directions: {
     type: ControlType.Enum,
     defaultValue: "Left",
@@ -78,10 +78,10 @@ directions: {
     ],
     displaySegmentedControl: true,
 },
-```
+```js
 ### Direction
 ![Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/872db1ea-7ea4-4eec-a687-a88bc31691b3)
-```
+```typescript
 direction: {
     type: ControlType.Enum,
     defaultValue: "horizontal",
@@ -91,7 +91,7 @@ direction: {
 ```
 ### Any Direction
 ![Any Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d70f53d7-fa2c-4e8e-969a-1aa555c3494d)
-```
+```js
 anyDirection: {
     type: ControlType.Enum,
     defaultValue: "horizontal",
@@ -101,7 +101,7 @@ anyDirection: {
 ```
 ### Alignement
 ![Alignement](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/dd8bb795-dd81-4720-b943-be200ef4cce1)
-```
+```js
 alignment: {
     type: ControlType.Enum,
     options: ["flex-start", "center", "flex-end"],
@@ -119,7 +119,7 @@ alignment: {
 ```
 ### Orientation
 ![Orientation](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/d3f29857-80b2-44e3-b021-224718f945fa)
-```
+```js
 orientation: {
     type: ControlType.Enum,
     options: ["portrait", "landscape"],
@@ -133,7 +133,7 @@ orientation: {
 ## Fonts panel
 The `ControlType.Font` allow you to use the Official Font Picker 
 
-```
+```js
 font: {
     //@ts-ignore
     type: ControlType.Font,
@@ -142,9 +142,10 @@ font: {
     displayTextAlignment: false,
     defaultFontType: "monospace",
     defaultValue: {
-    fontSize: 14,
-    lineHeight: "1.5em"
-}
+        fontSize: 14,
+        lineHeight: "1.5em"
+    },
+},
 ```
 
 
