@@ -41,6 +41,6 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 ## Contribute
 
-Feel free to contribute to this documentation by sharing or documenting your discoveries. You can submit a pull request or tag me ([@Victorien](https://www.framer.community/u/ef550bdb)) in the related discussion on the [Framer Forum](https://www.framer.community/). Thanks to all Framer members for their contribution ❤️.
+Feel free to contribute to this documentation by sharing or documenting your discoveries. You can add one by submitting a pull request or tag me ([@Victorien](https://www.framer.community/u/ef550bdb)) in the related discussion from the [Framer Forum](https://www.framer.community/). Thanks to all Framer members for their contribution ❤️.
 
  
