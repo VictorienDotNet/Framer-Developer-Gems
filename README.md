@@ -1,5 +1,5 @@
 # Framer Developer Gems
-This repository documents advanced features not covered in the [official Developer documentation](https://www.framer.com/developers/) from Framer. It's a curated list of function in use in Framer discovered by the Community. These discoveries open the development of more advanced components and overrides. As additional documentation, it doesn't cover the basics and suppose you are already aware of it. If you are not, you can refer to the [Further Reading](#futher-readings) section. 
+This repository documents advanced features not covered in the [official Developer documentation](https://www.framer.com/developers/) from Framer. It's a curated list of function in use in Framer discovered by the Community. These discoveries open the development of more advanced components and overrides. As additional documentation, it doesn't cover the basics and suppose you are already aware of it. If you are not, you can refer to the [Further Reading](#futher-readings) section to learn more about Framer and React developement.
 
 
 ## Discovered Gems
@@ -30,6 +30,7 @@ Below is a list of gems discovered by the community that have been discussed in 
 <br/>
 
 ## Futher Readings
+Some helpful guides to learn React × Framer development.
 
 - [Official Developer Documentation](https://www.framer.com/developers/)
 
