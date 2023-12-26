@@ -32,9 +32,9 @@ Below is a list of gems discovered by the community that have been discussed in 
 ## Futher Readings
 Some helpful guides to learn React × Framer development.
 
-- [Official Developer Documentation](https://www.framer.com/developers/)
+- [Official Framer Developer Documentation](https://www.framer.com/developers/)
 
-- [Legacy Developer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
+- [Legacy Framer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
 
 - [React Guide by Framer](https://site-dsmwifrws-framer-app.vercel.app/books/framer-guide-to-react/)
 
