@@ -15,7 +15,7 @@ Below is a list of gems discovered by the community that have been discussed in 
    The `RenderTarget` function lets you know where Framer renders the component.
    
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
-  Export your Design Component into a Next.js Project
+  Export your Design Component in a Next.js Project
 
 - 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
