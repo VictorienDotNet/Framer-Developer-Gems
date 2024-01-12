@@ -10,6 +10,8 @@ Below is a list of gems discovered by the community that have been discussed in 
   There are more possibilities in terms of property controls than what the official documentation covers. You can: 
    - Display Icons in the Property Controls
    - Use the Font Picker 
+   - Get the Property Controls from a Component
+
    
 - 📝 [RenderTarget](./documentations/RenderTarget.md)<br/>
    The `RenderTarget` function lets you know where Framer renders the component.
