@@ -5,6 +5,7 @@ There are more possibilities in terms of property controls than what the officia
 
 1. [Display Icons in the Property Controls](#icons-in-property-controls)
 2. [Use the `ControlType.Font`](#fonts-panel)
+3. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
 
 
 ## Icons in Property Controls
@@ -146,6 +147,42 @@ font: {
         lineHeight: "1.5em"
     },
 },
+```
+
+## Get the Property Controls from a component
+The function `getPropertyControls` lets you get property controls from a Code or Design component. It returns an object that lists each control by their ID:
+
+```js
+{
+    RgCWTcpQA: {
+        defaultValue: true
+        title: "Primary"
+        type: "boolean"
+    }
+}
+
+```
+
+For example, you can pass by property controls from Design to Code components. From here, you can add any extra controls and overrides that you would like to apply to your design component:
+
+```js
+
+import { addPropertyControls, ControlType, getPropertyControls } from "framer"
+import MyDesignComponent from "https://framer.com/m/MyDesignComponent-d94O.js"
+
+export default function Frame(props) {
+    const { content } = props
+    //You can modify props here
+    return (
+        <MyDesignComponent {...props} />
+    )
+}
+
+
+addPropertyControls(Frame, {
+    //You can add here any extra controls you would like
+    ...getPropertyControls(MyDesignComponent),
+})
 ```
 
 
