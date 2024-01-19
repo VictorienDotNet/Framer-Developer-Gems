@@ -1,0 +1,1 @@
+{"version":3,"file":"ImagePatternElement.d.ts","sourceRoot":"","sources":["../../../src/render/presentation/ImagePatternElement.tsx"],"names":[],"mappings":"AAAA,OAAc,EAAE,SAAS,EAAE,MAAM,OAAO,CAAA;AAGxC,MAAM,WAAW,6BAA6B;IAC1C,EAAE,EAAE,MAAM,CAAA;IACV,IAAI,EAAE,MAAM,CAAA;IACZ,SAAS,CAAC,EAAE,MAAM,CAAA;CACrB;AAED,qBAAa,mBAAoB,SAAQ,SAAS,CAAC,6BAA6B,EAAE,EAAE,CAAC;IACjF,MAAM;CAiBT"}

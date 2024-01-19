@@ -1,0 +1,1 @@
+{"version":3,"file":"TextColor.d.ts","sourceRoot":"","sources":["../../../src/render/traits/TextColor.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,eAAe,CAAA;AAEhD,OAAO,EAAE,KAAK,EAAE,MAAM,yBAAyB,CAAA;AAE/C,cAAc;AACd,MAAM,WAAW,mBAAmB;IAChC,KAAK,EAAE,KAAK,GAAG,MAAM,CAAA;CACxB;AAED,wBAAgB,yBAAyB,CAAC,KAAK,EAAE,OAAO,CAAC,mBAAmB,CAAC,EAAE,KAAK,EAAE,WAAW,QAOhG"}

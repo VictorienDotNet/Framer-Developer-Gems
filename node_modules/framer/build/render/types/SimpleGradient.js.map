@@ -1,0 +1,1 @@
+{"version":3,"file":"SimpleGradient.js","sourceRoot":"","sources":["../../../src/render/types/SimpleGradient.ts"],"names":[],"mappings":"AAQA,MAAM,kBAAkB,GAA6B,CAAC,OAAO,EAAE,KAAK,CAAC,CAAA;AAErE,MAAM,UAAU,gBAAgB,CAAC,KAAU;IACvC,OAAO,KAAK,IAAI,kBAAkB,CAAC,KAAK,CAAC,GAAG,CAAC,EAAE,CAAC,GAAG,IAAI,KAAK,CAAC,CAAA;AACjE,CAAC"}

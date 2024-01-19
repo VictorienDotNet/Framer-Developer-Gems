@@ -1,0 +1,1 @@
+{"version":3,"file":"Shadow.d.ts","sourceRoot":"","sources":["../../../src/render/traits/Shadow.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,EAAE,MAAM,oBAAoB,CAAA;AAE3D,MAAM,WAAW,mBAAmB;IAChC,OAAO,EAAE,QAAQ,CAAC,SAAS,EAAE,CAAC,CAAA;CACjC;AAED,MAAM,WAAW,oBAAoB;IACjC,OAAO,EAAE,QAAQ,CAAC,MAAM,EAAE,CAAC,CAAA;CAC9B"}

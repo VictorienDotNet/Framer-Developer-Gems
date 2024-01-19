@@ -1,0 +1,1 @@
+{"version":3,"file":"useActiveVariantCallback.d.ts","sourceRoot":"","sources":["../../src/modules/useActiveVariantCallback.ts"],"names":[],"mappings":"AAoBA;;;;;;GAMG;AACH,wBAAgB,wBAAwB,CAAC,WAAW,EAAE,MAAM,GAAG,SAAS;IAsBhE;;OAEG;gDAEsB,GAAG,EAAE,KAAK,QAAQ,OAAO,GAAG,IAAI,CAAC,eAC5C,GAAG,EAAE;IASnB;;;;OAIG;sBACqB,MAAM,IAAI,WAAW,MAAM;EAK1D;AAED;;;;;GAKG;AACH,wBAAgB,uBAAuB;;;EAOtC"}
