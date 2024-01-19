@@ -2,7 +2,7 @@
 
 The `RenderTarget.current()` allows you to know which environment your component is in. It can receive fours different possibilities: `canvas`, `preview`, `export` or `thumbnail`:
 
-```
+```js
 import { RenderTarget } from "framer"
 
 if (RenderTarget.current() === RenderTarget.canvas) {

@@ -21,12 +21,14 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 - 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
+
+- 📝 [@framerDisableUnlink](./documentations/framerDisableUnlink)<br/>
+  Disable the Code Edition of your Component
   
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
  Navigate between your website pages.
   
-- 💬 [@framerDisableUnlink](https://www.framer.community/c/developers/about-code-component)<br/>
-  Disable the Code Edition of your Component
+
   
 
 <br/>
