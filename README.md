@@ -17,21 +17,21 @@ Below is a list of gems discovered by the community that have been discussed in 
    The `RenderTarget` function lets you know where Framer renders the component.
    
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
-  Export your Design Component in a Next.js Project
+  Export your Design Component in a Next.js Project.
 
 - 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
 
 - 📝 [@framerDisableUnlink](./documentations/framerDisableUnlink.md)<br/>
-  Disable the Code Edition of your Component
+  Disable the Code Edition of your Component.
+
+- 📝 [Extract CMS Data](./documentations/ExtractingCMSData.md)<br/>
+  You can export your collections as a JSON file.
   
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
  Navigate between your website pages.
   
 
-  
-
-<br/>
 
 ## Futher Readings
 Some helpful guides to learn React × Framer development.
