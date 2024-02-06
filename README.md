@@ -30,7 +30,9 @@ Below is a list of gems discovered by the community that have been discussed in 
   
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
  Navigate between your website pages.
-  
+
+- 💬 [Choose your package version](https://www.framer.community/c/bugs/spline-npm-package-is-not-up-to-date-in-framer)<br/>
+  On Framer, you can choose your package version by using esm.sh.
 
 
 ## Futher Readings
