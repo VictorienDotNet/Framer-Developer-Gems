@@ -79,7 +79,8 @@ directions: {
     ],
     displaySegmentedControl: true,
 },
-```js
+```
+
 ### Direction
 ![Direction](https://github.com/VictorienDotNet/Framer-Components-Documentaion/assets/5654077/872db1ea-7ea4-4eec-a687-a88bc31691b3)
 ```typescript
