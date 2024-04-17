@@ -3,9 +3,56 @@
 
 There are more possibilities in terms of property controls than what the official documentation covers. See below extra gems for Property Controls:
 
-1. [Display Icons in the Property Controls](#icons-in-property-controls)
-2. [Use the `ControlType.Font`](#fonts-panel)
-3. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
+1. [Use the `ControlType.Font`](#controltypefont)
+2. [Use the `ControlType.ResponsiveImage`](#controltyperesponsiveimage)
+3. [Display Icons in the Property Controls](#icons-in-property-controls)
+4. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
+
+
+## ControlType.Font
+The `ControlType.Font` allow you to use the Official Font Picker
+
+<img width="279" alt="Screenshot 2024-04-17 at 11 43 32" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/8aea73db-64dd-47ac-b00b-c9a8806d3ba6">
+
+```js
+font: {
+    //@ts-ignore
+    type: ControlType.Font,
+    controls: "extended",
+    displayFontSize: true,
+    displayTextAlignment: false,
+    defaultFontType: "monospace",
+    defaultValue: {
+        fontSize: 14,
+        lineHeight: "1.5em"
+    },
+},
+```
+
+
+## ControlType.ResponsiveImage
+The `ControlType.ResponsiveImage` allow you to use the [src](https://www.w3schools.com/tags/att_src.asp), [srcSet](https://www.w3schools.com/TAgs/att_source_srcset.asp), and [alt](https://www.w3schools.com/TAGS/att_alt.asp) HTML attributes from the `<image />` tag, and the `positionX` and `positionY` for the CSS attribute [object-position](https://css-tricks.com/almanac/properties/o/object-position/).
+
+<img width="275" alt="Screenshot 2024-04-17 at 11 42 39" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/86a21e7b-23d1-4c03-b9f0-76d7d6541a48">
+
+```js
+export default function ResponsiveImage({ image, style }) {
+    return <img
+            {...image} //apply the src, srcSet and alt attribute
+            style={{
+                ...style,
+                objectPosition: `${image.positionX} ${image.positionY}`,
+            }}
+        />
+}
+
+addPropertyControls(ResponsiveImage, {
+    image: {
+        type: ControlType.ResponsiveImage,
+    },
+})
+```
+
 
 
 ## Icons in Property Controls
@@ -132,24 +179,6 @@ orientation: {
 ```
 
 
-## Fonts panel
-The `ControlType.Font` allow you to use the Official Font Picker 
-
-```js
-font: {
-    //@ts-ignore
-    type: ControlType.Font,
-    controls: "extended",
-    displayFontSize: true,
-    displayTextAlignment: false,
-    defaultFontType: "monospace",
-    defaultValue: {
-        fontSize: 14,
-        lineHeight: "1.5em"
-    },
-},
-```
-
 ## Get the Property Controls from a component
 The function `getPropertyControls` lets you get property controls from a Code or Design component. It returns an object that lists each control by their ID:
 
@@ -191,4 +220,5 @@ addPropertyControls(Frame, {
 
 1. 💬 [Discussion about Icons in Property Controls](https://www.framer.community/c/developers/how-can-i-get-icons-in-the-enum-property-control)
 2. 💬 [Disccusion about ControlType.Font](https://www.framer.community/c/developers/code-component-with-text-control)
+3. 💬 [Disccusion about ControlType.ResponsiveImage](https://www.framer.community/c/tutorials/responsive-images-in-code-components)
 
