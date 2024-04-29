@@ -8,8 +8,8 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 - 📝 [Advanced Property Control](./documentations/AdvancedPropertyControl.md) <br/>
   There are more possibilities in terms of property controls than what the official documentation covers. You can: 
+   - Use the `ControlType.Font` or `ControlType.ResponsiveImage`
    - Display Icons in the Property Controls
-   - Use the Font Picker 
    - Get the Property Controls from a Component
 
    
