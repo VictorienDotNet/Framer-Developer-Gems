@@ -1,1 +1,0 @@
-{"version":3,"file":"MultiStopGradient.d.ts","sourceRoot":"","sources":["../../../src/render/types/MultiStopGradient.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,iBAAiB,EAAE,MAAM,wBAAwB,CAAA;AAE/D;;GAEG;AACH,MAAM,WAAW,iBAAiB;IAC9B,KAAK,EAAE,SAAS,iBAAiB,EAAE,CAAA;CACtC;AAID,wBAAgB,mBAAmB,CAAC,KAAK,EAAE,GAAG,GAAG,KAAK,IAAI,iBAAiB,CAE1E"}

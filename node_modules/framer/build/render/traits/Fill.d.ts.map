@@ -1,1 +1,0 @@
-{"version":3,"file":"Fill.d.ts","sourceRoot":"","sources":["../../../src/render/traits/Fill.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,0CAA0C,CAAA;AAC1E,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAA;AAEjD,gBAAgB;AAChB,MAAM,WAAW,cAAc;IAC3B,IAAI,EAAE,UAAU,CAAC,UAAU,CAAC,GAAG,UAAU,GAAG,IAAI,CAAA;CACnD"}
