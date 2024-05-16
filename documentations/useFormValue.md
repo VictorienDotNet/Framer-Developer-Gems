@@ -31,7 +31,7 @@ The valueName from the hook corresponds to the name of the input. First, you nee
 
 Once the value name is defined, you can use the hook and apply it as a variable to any component. For example, you can apply it to a native Text component like this:
 ```js
-//Code Override Example
+/* CODE OVERRIDE EXAMPLE */
 import type { ComponentType } from "react"
 import { useFormValue } from "https://framer.com/m/Store-nhJr.js"
 
