@@ -34,7 +34,7 @@ Once the value name is defined, you can use the hook and apply it as a variable 
 export function withFormValue(Component): ComponentType {
   return (props) => {
     const [name, setName] = useFormValue("fisrtname");
-    return <Component {...props} text={value} />;
+    return <Component {...props} text={name} />;
   };
 }
 ```
