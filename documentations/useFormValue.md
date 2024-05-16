@@ -3,7 +3,6 @@ The `useFormValue` function enables you to read and update input values from for
 
 ```js
 import { useFormValue } from "https://framer.com/m/Store-nhJr.js"
-
 const [value, setValue] = useFormValue("valueName", "initialValue");
 ```
 
