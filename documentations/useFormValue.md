@@ -18,7 +18,7 @@ const [value, setValue] = useFormValue("valueName", "initialValue");
 - The current value of the input field. During the first render, if the inputs are empty and `initialState` is not defined, it will return `undefined`.
 - The set function allows you to update the input with a different value and trigger a re-render of all components using the useFormValue hook, including the input field.
 
-Note: The values returned byt the hook is effectif accross pages unitl the user is quitting or refreshing the page. 
+Note: The values returned by the hook is effectif accross pages until the user is quitting or refreshing the page. 
 
 ## Walkthrough
 
