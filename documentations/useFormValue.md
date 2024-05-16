@@ -37,8 +37,8 @@ import { useFormValue } from "https://framer.com/m/Store-nhJr.js"
 
 export function withFormValue(Component): ComponentType {
   return (props) => {
-    const [name, setName] = useFormValue("fisrtname");
-    return <Component {...props} text={name} />;
+    const [firstName, setFirstName] = useFormValue("fisrtname");
+    return <Component {...props} text={firstName} />;
   };
 }
 ```
