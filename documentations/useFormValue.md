@@ -42,7 +42,7 @@ Note: You will need to ensure that the value's type, whether String or Number, m
 
 ```js
 const [value, setValue] = useFormValue("slider");
-return <Component {...props} text={String(Value)} />;
+return <Component {...props} text={String(value)} />;
 ```
 
 ## References
