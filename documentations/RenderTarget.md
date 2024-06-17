@@ -1,6 +1,23 @@
-# Render Target
+# useIsOnFramerCanvas and Render Target
+The `useIsOnFramerCanvas` hook indicates whether your code is running on the Framer Canvas. It returns a boolean value.
 
-The `RenderTarget.current()` allows you to know which environment your component is in. It can receive fours different possibilities: `canvas`, `preview`, `export` or `thumbnail`:
+```js
+import { useIsOnFramerCanvas } from "framer"
+export default function CodeComponent(props) {
+    const isOnFramerCanvas = useIsOnFramerCanvas()
+
+    if (isOnFramerCanvas) {
+        return <>This will be display only on the Canvas</>
+    } else {
+        return (
+            <> This will be display only during the preview or the online version</>
+        )
+    }
+}
+
+```
+
+The `useIsOnFramerCanvas` hook use the `RenderTarget.current()` function. Similar to the hook, this function allows you to know on which environment your component is in. It can receive fours different possibilities: `canvas`, `preview`, `export` or `thumbnail`:
 
 ```js
 import { RenderTarget } from "framer"
