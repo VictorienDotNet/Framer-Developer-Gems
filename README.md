@@ -18,8 +18,8 @@ Below is a list of gems discovered by the community that have been discussed in 
 - 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
   Export your Design Component in a Next.js Project.
   
-- 📝 [RenderTarget](./documentations/RenderTarget.md)<br/>
-   The `RenderTarget` function lets you know where Framer renders the component.
+- 📝 [useIsOnFramerCanvas](./documentations/RenderTarget.md)<br/>
+   The `useIsOnFramerCanvas` hook lets you know where Framer renders the component.
   
 - 📝 [useFormValue](./documentations/useFormValue.md)<br/>
   Read and write data from forms.
