@@ -179,6 +179,92 @@ orientation: {
 ```
 
 
+## ControlType.Object
+
+There are three undocumented ControlType.Object options: `buttonTitle`, `icon`, and `optional`.
+
+### Optional
+You can make the object removable by adding `optional: true`. When the object is removed, it shows an "Add..." button.
+
+<img width="246" alt="Optional" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/091bfaa4-a5fd-482c-8d34-00e4973b2334">
+<br>
+<img width="246" alt="Optional" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/b2cc235e-a499-40c6-b204-85131a30b31f">
+
+
+```js
+object: {
+    type: ControlType.Object,
+    optional: true,
+    controls: {
+        toggle: {
+            type: ControlType.Boolean,
+        },
+    },
+},
+```
+
+### Button Title
+You can add a custom title to the button to replace the default one with `buttonTitle`.
+
+<img width="246" alt="Button Title" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/9b512f3e-c890-44e3-b27e-3596f4e2f224">
+
+```js
+object: {
+    type: ControlType.Object,
+    buttonTitle: "Style",
+    controls: {
+        toggle: {
+            type: ControlType.Boolean,
+        },
+    },
+},
+```
+
+### Button Icons
+The `icon` option lets you change the icon shown on an object property's button from the default three dots to another icon.
+
+There are two icons currently available: `"effect"` and `"boolean"`
+
+<img width="246" alt="Icons" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/3623d925-038a-4c25-a9cd-937319a8b8b1">
+
+```js
+effect: {
+    type: ControlType.Object,
+    icon: "effect",
+    controls: {
+        toggle: {
+            type: ControlType.Boolean,
+        },
+    },
+},
+toggle: {
+    type: ControlType.Object,
+    icon: "boolean",
+    controls: {
+        toggle: {
+            type: ControlType.Boolean,
+        },
+    },
+},
+```
+
+
+## Optional Colors
+
+The `optional: true` setting can be applied to ControlType.Color to make it removable.
+
+<img width="246" alt="image" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/88438715-7e3b-419d-8537-195993fe85bc">
+<br>
+<img width="246" alt="image" src="https://github.com/madebyisaacr/Framer-Developer-Gems/assets/119639439/b2b9cf61-06d0-41ec-9ec2-6a70b878a922">
+
+```js
+color: {
+    type: ControlType.Color,
+    optional: true,
+},
+```
+
+
 ## Get the Property Controls from a component
 The function `getPropertyControls` lets you get property controls from a Code or Design component. It returns an object that lists each control by their ID:
 
