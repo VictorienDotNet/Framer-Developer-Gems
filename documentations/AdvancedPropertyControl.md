@@ -5,11 +5,12 @@ There are more possibilities in terms of property controls than what the officia
 
 1. [Use the `ControlType.Font`](#controltypefont)
 2. [Use the `ControlType.ResponsiveImage`](#controltyperesponsiveimage)
+2. [Customize the `ControlType.Object`](#controltyperesponsiveimage)
 3. [Display Icons in the Property Controls](#icons-in-property-controls)
 4. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
 
 
-## ControlType.Font
+## Use the `ControlType.Font`
 The `ControlType.Font` allow you to use the Official Font Picker
 
 <img width="279" alt="Screenshot 2024-04-17 at 11 43 32" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/8aea73db-64dd-47ac-b00b-c9a8806d3ba6">
@@ -30,7 +31,7 @@ font: {
 ```
 
 
-## ControlType.ResponsiveImage
+## Use the `ControlType.ResponsiveImage`
 The `ControlType.ResponsiveImage` allow you to use the [src](https://www.w3schools.com/tags/att_src.asp), [srcSet](https://www.w3schools.com/TAgs/att_source_srcset.asp), and [alt](https://www.w3schools.com/TAGS/att_alt.asp) HTML attributes from the `<image />` tag, and the `positionX` and `positionY` for the CSS attribute [object-position](https://css-tricks.com/almanac/properties/o/object-position/).
 
 <img width="275" alt="Screenshot 2024-04-17 at 11 42 39" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/86a21e7b-23d1-4c03-b9f0-76d7d6541a48">
@@ -55,7 +56,7 @@ addPropertyControls(ResponsiveImage, {
 
 
 
-## Icons in Property Controls
+## Display Icons in the Property Controls
 
 Framer display icons on really specific property as Text Alignement or Device Orientation. You can reproduce this Control by mentionning the correct `optionTitles` or `optionIcons`. You can see below the different Property Controls:
 
@@ -179,7 +180,7 @@ orientation: {
 ```
 
 
-## ControlType.Object
+## Customize the `ControlType.Object`
 
 There are three undocumented ControlType.Object options: `buttonTitle`, `icon`, and `optional`.
 
@@ -249,7 +250,7 @@ toggle: {
 ```
 
 
-## Optional Colors
+### Optional Colors
 
 The `optional: true` setting can be applied to ControlType.Color to make it removable.
 
