@@ -5,7 +5,7 @@ There are more possibilities in terms of property controls than what the officia
 
 1. [Use the `ControlType.Font`](#controltypefont)
 2. [Use the `ControlType.ResponsiveImage`](#controltyperesponsiveimage)
-2. [Customize the `ControlType.Object`](#controltyperesponsiveimage)
+2. [Customize the `ControlType.Object`](#customize-the-controltypeobject)
 3. [Display Icons in the Property Controls](#icons-in-property-controls)
 4. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
 
