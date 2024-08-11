@@ -3,21 +3,28 @@ This repository documents advanced features not covered in the [official Develop
 
 
 ## Discovered Gems
-
 Below is a list of gems discovered by the community that have been discussed in the forum (💬) or documented here (📝). 
 
-- 📝 [Advanced Property Control](./documentations/AdvancedPropertyControl.md) <br/>
-  There are more possibilities in terms of property controls than what the official documentation covers. You can: 
-   - Use the `ControlType.Font` or `ControlType.ResponsiveImage`
-   - Display Icons in the Property Controls
-   - Get the Property Controls from a Component
-     
-- 📝 [Extract CMS Data](./documentations/ExtractingCMSData.md)<br/>
-  You can export your collections as a JSON file.
+### Property Controls
+
+- 📝 [ControlType.Object](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
+  Customize the Object Control by adding icons or making it optional.
+
+- 📝 [ControlType.Font](./documentations/AdvancedPropertyControl.md#controltypefont)<br/>
+  Use the Font Picker as a control.
+
+- 📝 [ControlType.ResponsiveImage](./documentations/AdvancedPropertyControl.md#controltyperesponsiveimage)<br/>
+  Use the Responsive Image setup.
   
-- 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
-  Export your Design Component in a Next.js Project.
+- 📝 [Custom Enum Icons](./documentations/AdvancedPropertyControl.md#icons-in-property-controls)<br/>
+  Display icons in the Enum property controls instead of strings.
   
+- 📝 [getPropertyControls](./documentations/AdvancedPropertyControl.md#get-the-property-controls-from-a-component)<br/>
+  Get the property controls from a component and re-use them as you wish.
+
+
+### Hooks
+
 - 📝 [useIsOnFramerCanvas](./documentations/RenderTarget.md)<br/>
    The `useIsOnFramerCanvas` hook lets you know where Framer renders the component.
   
@@ -27,15 +34,27 @@ Below is a list of gems discovered by the community that have been discussed in 
 - 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
 
-- 📝 [@framerDisableUnlink](./documentations/framerDisableUnlink.md)<br/>
-  Disable the Code Edition of your Component.
-  
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
  Navigate between your website pages.
 
+- 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
+ Navigate between your website pages.
+
+### Other
+
+- 📝 [@framerDisableUnlink](./documentations/framerDisableUnlink.md)<br/>
+  Disable the Code Edition of your Component.
+     
+- 📝 [Extract CMS Data](./documentations/ExtractingCMSData.md)<br/>
+  You can export your collections as a JSON file.
+  
+- 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
+  Export your Design Component in a Next.js Project.
+
 - 💬 [Choose your package version](https://www.framer.community/c/bugs/spline-npm-package-is-not-up-to-date-in-framer)<br/>
   On Framer, you can choose your package version by using esm.sh.
-
+  
+<br/>
 
 ## Futher Readings
 Some helpful guides to learn React × Framer development.
