@@ -7,6 +7,9 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 ### Property Controls
 
+- 📝 [ControlType.Cursor](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
+  Use the the Cursor Panel to select default CSS cursor
+
 - 📝 [ControlType.Object](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
   Customize the Object Control by adding icons or making it optional.
 
