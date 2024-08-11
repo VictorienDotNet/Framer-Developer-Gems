@@ -7,7 +7,7 @@ Below is a list of gems discovered by the community that have been discussed in 
 
 ### Property Controls
 
-- 📝 [ControlType.Cursor](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
+- 📝 [ControlType.Cursor](./documentations/AdvancedPropertyControl.md#controltypecursor)<br/>
   Use the the Cursor Panel to select default CSS cursor
 
 - 📝 [ControlType.Font](./documentations/AdvancedPropertyControl.md#controltypefont)<br/>
