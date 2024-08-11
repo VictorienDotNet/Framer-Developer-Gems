@@ -3,14 +3,35 @@
 
 There are more possibilities in terms of property controls than what the official documentation covers. See below extra gems for Property Controls:
 
-1. [Use the `ControlType.Font`](#controltypefont)
-2. [Use the `ControlType.ResponsiveImage`](#controltyperesponsiveimage)
-2. [Customize the `ControlType.Object`](#customize-the-controltypeobject)
-3. [Display Icons in the Property Controls](#icons-in-property-controls)
-4. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
+1. [ControlType.Cursor](#controltypecursor)
+2. [ControlType.Font](#controltypefont)
+3. [ControlType.ResponsiveImage](#controltyperesponsiveimage)
+4. [Display Icons in the Property Controls](#icons-in-property-controls)
+5. [Customize the `ControlType.Object`](#customize-the-controltypeobject)
+6. [Get the Property Controls from a component](#get-the-property-controls-from-a-component)
 
 
-## Use the `ControlType.Font`
+
+
+### ControlType.Cursor
+The `ControlType.Cursor` adds a cursor panel to your property control, allowing the user to select a cursor from a predefined list. When using this control type, you will receive the corresponding CSS name of the selected cursor as a prop. (e.g.: `grabing`, `default`)
+
+<img width="286" alt="Screenshot 2024-04-30 at 18 53 54" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/55d683f2-b8b1-4aaf-bcf2-2bd078a9f102">
+
+```js
+export function CodeComponent({ cursor }) {
+    return <img style={cursor: cursor} />
+}
+
+addPropertyControls(CodeComponent, {
+    cursor: {
+        type: ControlType.Cursor,
+    },
+})
+```
+
+
+## ControlType.Font
 The `ControlType.Font` allow you to use the Official Font Picker
 
 <img width="279" alt="Screenshot 2024-04-17 at 11 43 32" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/8aea73db-64dd-47ac-b00b-c9a8806d3ba6">
@@ -31,7 +52,7 @@ font: {
 ```
 
 
-## Use the `ControlType.ResponsiveImage`
+## `ControlType.ResponsiveImage`
 The `ControlType.ResponsiveImage` allow you to use the [src](https://www.w3schools.com/tags/att_src.asp), [srcSet](https://www.w3schools.com/TAgs/att_source_srcset.asp), and [alt](https://www.w3schools.com/TAGS/att_alt.asp) HTML attributes from the `<image />` tag, and the `positionX` and `positionY` for the CSS attribute [object-position](https://css-tricks.com/almanac/properties/o/object-position/).
 
 <img width="275" alt="Screenshot 2024-04-17 at 11 42 39" src="https://github.com/VictorienDotNet/Framer-Developer-Gems/assets/5654077/86a21e7b-23d1-4c03-b9f0-76d7d6541a48">
