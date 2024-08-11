@@ -10,11 +10,11 @@ Below is a list of gems discovered by the community that have been discussed in 
 - 📝 [ControlType.Cursor](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
   Use the the Cursor Panel to select default CSS cursor
 
-- 📝 [ControlType.Object](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
-  Customize the Object Control by adding icons or making it optional.
-
 - 📝 [ControlType.Font](./documentations/AdvancedPropertyControl.md#controltypefont)<br/>
   Use the Font Picker as a control.
+
+- 📝 [ControlType.Object](./documentations/AdvancedPropertyControl.md#customize-the-controltypeobject)<br/>
+Customize the Object Control by adding icons or making it optional.
 
 - 📝 [ControlType.ResponsiveImage](./documentations/AdvancedPropertyControl.md#controltyperesponsiveimage)<br/>
   Use the Responsive Image setup.
