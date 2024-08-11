@@ -28,23 +28,22 @@ Customize the Object Control by adding icons or making it optional.
 
 ### Hooks
 
-- 📝 [useIsOnFramerCanvas](./documentations/RenderTarget.md)<br/>
-   The `useIsOnFramerCanvas` hook lets you know where Framer renders the component.
-  
 - 📝 [useFormValue](./documentations/useFormValue.md)<br/>
-  Read and write data from forms.
+  The useFormValue hook lets you read and write data from a Typer form.
+
+- 📝 [useIsOnFramerCanvas](./documentations/RenderTarget.md)<br/>
+  The useIsOnFramerCanvas hook lets you know where Framer renders the component.
+  
+- 📝 [useLocaleInfo](./documentations/useLocaleInfo.md)<br/>
+  The useLocaleInfo hook provides information about the active locale and the current locales available in your Framer project.
   
 - 📝 [useStore](./documentations/useStore.md)<br/>
-  Share data between two Code Components or Code Overrides across the Website.
-
-- 📝 [useLocaleInfo](./documentations/useLocaleInfo.md)<br/>
-  The `useLocaleInfo` hook lets you know the active locale and the current locales available from your Framer project.
+  The useStore hook allows you to share data between two Code Components or Code Overrides across the website.
 
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
- Navigate between your website pages.
+  The useRouter hook lets you navigate between your website pages.
 
-- 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
- Navigate between your website pages.
+
 
 ### Other
 
