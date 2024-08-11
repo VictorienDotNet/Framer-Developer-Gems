@@ -37,6 +37,9 @@ Customize the Object Control by adding icons or making it optional.
 - 📝 [useStore](./documentations/useStore.md)<br/>
   Share data between two Code Components or Code Overrides across the Website.
 
+- 📝 [useLocales](./documentations/useLocales.md)<br/>
+  The `useLocales` hook lets you know the current locale in use and the array of locales available from your Framer project.
+
 - 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
  Navigate between your website pages.
 
