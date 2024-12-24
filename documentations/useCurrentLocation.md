@@ -75,6 +75,10 @@ export { useCurrentLocation }
 
 ```
 
+## References
+
+1. 💬 [Discussion about Accessing a Page through a Code Component](https://www.framer.community/c/developers/access-a-page-through-a-code-component)
+
 
 
 
