@@ -28,6 +28,9 @@ Customize the Object Control by adding icons or making it optional.
 
 ### Hooks
 
+- 📝 [useCurrentLocation](./documentations/useCurrentLocation.md)<br/>
+  Built on top of the useRouter hook, the useCurrentLocation hook allows you to get and set the current location.
+  
 - 📝 [useFormValue](./documentations/useFormValue.md)<br/>
   The useFormValue hook lets you read and write data from a Typer form.
 
@@ -40,8 +43,7 @@ Customize the Object Control by adding icons or making it optional.
 - 📝 [useStore](./documentations/useStore.md)<br/>
   The useStore hook allows you to share data between Code Components or Code Overrides across the website.
 
-- 💬 [useRouter](https://www.framer.community/c/developers/access-a-page-through-a-code-component#comment_wrapper_27167230)<br/>
-  The useRouter hook lets you navigate between your website pages.
+
 
 
 
