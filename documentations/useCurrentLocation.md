@@ -11,7 +11,6 @@ When navigating between pages on your Framer website, it is advised to use the u
 ## Use the Current Location
 
 ```js
-import { useCurrentLocation } from "https://framer.com/m/UseCurrentLocation-coQY.js"
 const [currentLocation, setCurrentLocation] = useCurrentLocation()
 ````
 The `useCurrentLocation` hook functions similarly to the classic _useState_ React hook. It returns two variables: one for reading the current location and another for setting the current location:
