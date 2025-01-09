@@ -68,9 +68,9 @@ Some helpful guides to learn React × Framer development.
 
 - [Official Framer Developer Documentation](https://www.framer.com/developers/)
 
-- [Legacy Framer Documentation](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/)
+- [Legacy Framer Documentation](https://web.archive.org/web/20221208185247/framer.com/developers/guides/)
 
-- [React Guide by Framer](https://site-dsmwifrws-framer-app.vercel.app/books/framer-guide-to-react/)
+- [React Guide by Framer](https://web.archive.org/web/20230128211202/framer.com/books/framer-guide-to-react/)
 
 - [Official React Documentation](https://react.dev/)
 
