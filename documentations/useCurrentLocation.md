@@ -77,7 +77,8 @@ export { useCurrentLocation }
 
 ## References
 
-1. 💬 [Discussion about Accessing a Page through a Code Component](https://www.framer.community/c/developers/access-a-page-through-a-code-component)
+1. 💬 [Access a Page through a Code Component](https://www.framer.community/c/developers/access-a-page-through-a-code-component)
+2. 💬 [Even I Figured Out useRouter (So You Can Too!)](https://www.framer.community/c/developers/even-i-figured-out-userouter-so-you-can-too)
 
 
 
