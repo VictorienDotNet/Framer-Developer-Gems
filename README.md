@@ -55,7 +55,7 @@ Customize the Object Control by adding icons or making it optional.
 - 📝 [Extract CMS Data](./documentations/ExtractingCMSData.md)<br/>
   You can export your collections as a JSON file.
   
-- 📝 [Handshake](https://site-dsmwifrws-framer-app.vercel.app/developers/guides/handshake/) <br/>
+- 📝 [Handshake](https://web.archive.org/web/20221208202807/https://www.framer.com/developers/guides/handshake/) <br/>
   Export your Design Component in a Next.js Project.
 
 - 💬 [Choose your package version](https://www.framer.community/c/bugs/spline-npm-package-is-not-up-to-date-in-framer)<br/>
