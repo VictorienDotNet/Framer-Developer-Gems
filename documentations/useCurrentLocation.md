@@ -20,7 +20,7 @@ The `useCurrentLocation` hook functions similarly to the classic _useState_ Reac
 
 e.g.:
 ```js
-import { useCurrentLocation } from "https://framer.com/m/UseCurrentLocation-coQY.js"
+import { useCurrentLocation } from "https://framer.com/m/UseCurrentLocation-oZyA.js@bdioF58F5hKfAbBswbPv"
 
 function CodeComponent(props) {
     const [currentLocation, setCurrentLocation] = useCurrentLocation()
