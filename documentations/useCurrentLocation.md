@@ -20,7 +20,7 @@ The `useCurrentLocation` hook functions similarly to the classic _useState_ Reac
 
 e.g.:
 ```js
-import { useCurrentLocation } from "https://framer.com/m/UseCurrentLocation-oZyA.js@bdioF58F5hKfAbBswbPv"
+import { useCurrentLocation } from "https://framer.com/m/FramerDevGemsPublic-djHN.js"
 
 function CodeComponent(props) {
     const [currentLocation, setCurrentLocation] = useCurrentLocation()
@@ -53,26 +53,45 @@ e.g.:
 ```js
 //@ts-ignore
 import { useRouter, useCurrentRouteId } from "framer"
-import { useState, useEffect } from "react"
 
-const useCurrentLocation = () => {
+type Route = { path: string; [key: string]: any }
+type Routes = { [key: string]: Route }
+type RouteHook = [string | undefined, (path: string) => void]
+type Params = { strict: boolean }
+
+/**
+ * React hook to get and set the current route location in a Framer project.
+ * @param {Object} params - The parameters for the hook.
+ * @param {boolean} params.strict - If true, the hook will enforce strict location matching.
+ * @returns {[string, (string) => void]} - An Array with the current path and a Setter function
+ * @example
+ * const [location, setLocation] = useCurrentLocation();
+ * setLocation('/about')
+ * @docs - Refer to https://github.com/VictorienDotNet/Framer-Developer-Gems/blob/main/documentations/useCurrentLocation.md for futher details
+ */
+const useCurrentLocation = (params?: Params): RouteHook => {
     const { navigate, routes } = useRouter()
     const currentRouteId = useCurrentRouteId()
 
-    const location = Array.isArray(routes) && routes[currentRouteId]?.path
+    const currentLocation = routes?.[currentRouteId]?.path
 
-    const setLocation = (path) => {
-        const routeID = Object.entries(routes)?.reduce((acc, item) => {
-            return item[1]?.path === path ? item[0] : acc
-        }, false)
-        navigate(routeID, "")
+    const setCurrentLocation = (pathWithHash: string) => {
+        const [path, hash] = pathWithHash.split("#")
+        const routeID = Object.entries(routes as Routes)?.find(
+            ([, value]) => value?.path === path
+        )?.[0]
+
+        if (routeID) {
+            navigate(routeID, hash)
+        } else if (!params?.strict) {
+            window.location.assign(path)
+        }
     }
 
-    return [location, setLocation]
+    return [currentLocation, setCurrentLocation]
 }
 
 export { useCurrentLocation }
-
 ```
 
 ## References
