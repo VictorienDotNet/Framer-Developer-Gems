@@ -37,6 +37,10 @@ function CodeComponent(props) {
 }
 ```
 
+By default, the hook supports external URLs and routes outside of the Framer project. It will fall back on the classic `window.location.assign` method to redirect to unknown routes. You can use the `strict` flag to allow only available routes. e.g.:
+```js
+const [currentLocation, setCurrentLocation] = useCurrentLocation({strict: true})
+```
 
 ## Use the Router and Route Id
 
