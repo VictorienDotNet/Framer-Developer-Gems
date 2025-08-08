@@ -38,18 +38,18 @@ The `ControlType.Font` allow you to use the Official Font Picker
 
 ```js
 font: {
-    //@ts-ignore
     type: ControlType.Font,
-    controls: "extended",
+    controls: "extended", // "basic" or "extended"
     displayFontSize: true,
     displayTextAlignment: false,
-    defaultFontType: "monospace",
+    defaultFontType: "monospace", // "sans-serif" or "monospace
     defaultValue: {
         fontSize: 14,
         lineHeight: "1.5em"
     },
 },
 ```
+Adding `defaultFontType` makes the Font property non-optional.
 
 
 ## `ControlType.ResponsiveImage`
